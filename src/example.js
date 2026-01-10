@@ -1,10 +1,7 @@
-// This file has intentional linting errors
-const unusedVar = 'this is unused'; // no-unused-vars error
-
+// This file has fixed linting errors
 function example() {
-  console.log('Hello world'); // no-console warn
-  let str = "double quotes"; // quotes error
-  let num = 10 // semi error
+  const str = 'single quotes'; // Fixed: single quotes instead of double
+  const num = 10; // Fixed: added semicolon
   return str + num;
 }
 
